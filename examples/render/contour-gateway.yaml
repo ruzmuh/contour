@@ -286,6 +286,11 @@ spec:
                         description: Defines an Envoy Listener Address.
                         minLength: 1
                         type: string
+                      bufferMaxRequestBytes:
+                        description: BufferMaxRequestBytes defines whethe to add a
+                          Buffer filter and sets max_request_bytes value
+                        format: int32
+                        type: integer
                       port:
                         description: Defines an Envoy listener Port.
                         type: integer
@@ -303,6 +308,11 @@ spec:
                         description: Defines an Envoy Listener Address.
                         minLength: 1
                         type: string
+                      bufferMaxRequestBytes:
+                        description: BufferMaxRequestBytes defines whethe to add a
+                          Buffer filter and sets max_request_bytes value
+                        format: int32
+                        type: integer
                       port:
                         description: Defines an Envoy listener Port.
                         type: integer
@@ -3971,6 +3981,11 @@ spec:
                             description: Defines an Envoy Listener Address.
                             minLength: 1
                             type: string
+                          bufferMaxRequestBytes:
+                            description: BufferMaxRequestBytes defines whethe to add
+                              a Buffer filter and sets max_request_bytes value
+                            format: int32
+                            type: integer
                           port:
                             description: Defines an Envoy listener Port.
                             type: integer
@@ -3988,6 +4003,11 @@ spec:
                             description: Defines an Envoy Listener Address.
                             minLength: 1
                             type: string
+                          bufferMaxRequestBytes:
+                            description: BufferMaxRequestBytes defines whethe to add
+                              a Buffer filter and sets max_request_bytes value
+                            format: int32
+                            type: integer
                           port:
                             description: Defines an Envoy listener Port.
                             type: integer
