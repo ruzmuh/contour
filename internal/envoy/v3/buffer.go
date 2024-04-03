@@ -17,8 +17,9 @@ import (
 	envoy_filter_http_buffer_v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/buffer/v3"
 	envoy_filter_network_http_connection_manager_v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/network/http_connection_manager/v3"
 	"github.com/envoyproxy/go-control-plane/pkg/wellknown"
-	"github.com/projectcontour/contour/internal/protobuf"
 	"google.golang.org/protobuf/types/known/wrapperspb"
+
+	"github.com/projectcontour/contour/internal/protobuf"
 )
 
 // BufferFilter returns a configured HTTP buffer filter,
