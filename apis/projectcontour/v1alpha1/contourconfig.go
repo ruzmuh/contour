@@ -529,7 +529,8 @@ type EnvoyListener struct {
 	// +optional
 	AccessLog string `json:"accessLog,omitempty"`
 
-	// BufferMaxRequestBytes defines whether to add a Buffer filter and sets max_request_bytes value
+	// Sets the max_request_bytes value for the http.buffer filter.
+	// If the value is 0, it skips adding a Buffer filter into the filter chain.
 	// +optional
 	BufferMaxRequestBytes uint32 `json:"bufferMaxRequestBytes,omitempty"`
 }

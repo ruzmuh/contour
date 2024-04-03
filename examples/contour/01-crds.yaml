@@ -251,8 +251,9 @@ spec:
                         minLength: 1
                         type: string
                       bufferMaxRequestBytes:
-                        description: BufferMaxRequestBytes defines whethe to add a
-                          Buffer filter and sets max_request_bytes value
+                        description: |-
+                          Sets the max_request_bytes value for the http.buffer filter.
+                          If the value is 0, it skips adding a Buffer filter into the filter chain.
                         format: int32
                         type: integer
                       port:
@@ -273,8 +274,9 @@ spec:
                         minLength: 1
                         type: string
                       bufferMaxRequestBytes:
-                        description: BufferMaxRequestBytes defines whethe to add a
-                          Buffer filter and sets max_request_bytes value
+                        description: |-
+                          Sets the max_request_bytes value for the http.buffer filter.
+                          If the value is 0, it skips adding a Buffer filter into the filter chain.
                         format: int32
                         type: integer
                       port:
@@ -3946,8 +3948,9 @@ spec:
                             minLength: 1
                             type: string
                           bufferMaxRequestBytes:
-                            description: BufferMaxRequestBytes defines whethe to add
-                              a Buffer filter and sets max_request_bytes value
+                            description: |-
+                              Sets the max_request_bytes value for the http.buffer filter.
+                              If the value is 0, it skips adding a Buffer filter into the filter chain.
                             format: int32
                             type: integer
                           port:
@@ -3968,8 +3971,9 @@ spec:
                             minLength: 1
                             type: string
                           bufferMaxRequestBytes:
-                            description: BufferMaxRequestBytes defines whethe to add
-                              a Buffer filter and sets max_request_bytes value
+                            description: |-
+                              Sets the max_request_bytes value for the http.buffer filter.
+                              If the value is 0, it skips adding a Buffer filter into the filter chain.
                             format: int32
                             type: integer
                           port:
